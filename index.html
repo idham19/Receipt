@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: lightgray;
+      }
+      .wrapper {
+        table-layout: fixed;
+        background-color: lightgray;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .main {
+        width: 100%;
+        max-width: 600px;
+        background-color: white;
+        color: #4a4a4a;
+        font-family: sans-serif;
+        border-spacing: 0;
+      }
+      .invoice {
+        background-color: #93d5e5;
+        border-radius: 10px;
+        padding: 3px;
+        width: 95%;
+        margin: 0 auto;
+      }
+      .invoice thead td {
+        border-bottom: 1px dashed;
+        padding: 10px 1px;
+      }
+      .order {
+        width: 95%;
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #93d5e5;
+        border-radius: 10px;
+        padding: 3px;
+      }
+      .order thead tr td {
+        background-color: #ceecf3;
+        padding: 3px;
+      }
+      .order tfoot tr td {
+        padding: 3px;
+       
+        background-color: #ceecf3;
+      }
+      .order tbody tr td a {
+          color: black;
+        text-decoration: none;
+        
+      }
+      .order tbody tr td a span {
+        padding: 5px 2px;
+      }
+
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+
+      img {
+        border: 0;
+      }
+      .btn {
+        padding: 15px 25px;
+        text-decoration: none;
+        border-radius: 15px;
+        background-color: #3c83e0;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <center class="wrapper">
+      <table class="main">
+        <!-- logo -->
+        <tr>
+          <td style="text-align: center; padding: 25px">
+            <a href="#"
+              ><img
+                width="210"
+                src="https://i.ibb.co/vJrs65P/buy-it.png"
+                alt="buy-it"
+                border="0"
+            /></a>
+          </td>
+        </tr>
+
+        <!-- Text -->
+        <tr>
+          <td style="text-align: center; padding: 25px">
+            <p style="font-weight: 900; font-size: 35px; padding-bottom: 15px">
+              Thanks For Your Order
+            </p>
+            <p style="font-weight: 600">
+              You'll receive an email when your items are shipped
+            </p>
+            <p style="font-weight: 600">
+              Have any questions, call us any time at 1-800-568-8008
+            </p>
+            <p style="font-weight: 600; padding-bottom: 15px">
+              or simply reply to this email
+            </p>
+            <a class="btn" href="#">View Order status</a>
+          </td>
+        </tr>
+
+        <!-- Summary -->
+        <tr>
+          <td style="padding: 10px;color: black;">
+            <table class="invoice">
+              <thead>
+                <tr>
+                  <td style="text-align: left">SUMMARY</td>
+                  <td style="text-align: right">SHIPPING ADDRESS</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="word-spacing: 75px; padding: 1px">
+                    Order 06235011
+                  </td>
+                  <td rowspan="2" style="text-align: right; padding-right: 1px">
+                    23 street philadelphia usa
+                  </td>
+                </tr>
+                <tr style="word-spacing: 75px">
+                  <td style="padding: 1px">DATE 04/19/2022</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr style="text-align: left">
+                  <td
+                    style="
+                      word-spacing: 85px;
+                      border-top: 1px dashed;
+                      padding: 1px;
+                    "
+                  >
+                    Total <span style="color: green">$180.00</span>
+                  </td>
+                  <td style="border-top: 1px dashed"></td>
+                </tr>
+              </tfoot>
+            </table>
+          </td>
+        </tr>
+        <!--  item ordered -->
+        <tr>
+          <td style="padding: 10px; color: black;">
+            <table class="order">
+              <thead>
+                <tr>
+                  <td>ITEMS ORDERED</td>
+                  <td>QT</td>
+                  <td>Price</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="padding: 5px; text-align: left">
+                    <a href="#" >
+                      <img
+                        width="30"
+                        src="https://i.ibb.co/JpFsfVQ/camera.jpg"
+                        alt="camera"
+                        border="0"
+                      /><span>SONY CAMERA</span></a
+                    >
+                  </td>
+                  <td>1</td>
+                  <td>$60.00</td>
+                </tr>
+                <tr>
+                  <td style="padding: 5px; text-align: left">
+                    <a href="#"
+                      ><img
+                        width="25"
+                        src="https://i.ibb.co/XJ4tyTF/headphone.jpg"
+                        alt="headphone"
+                        border="0"
+                      /><span> HEADPHONE</span></a
+                    >
+                  </td>
+
+                  <td>1</td>
+                  <td>$60.00</td>
+                </tr>
+                <tr>
+                  <td style="padding: 5px; text-align: left">
+                    <a href="#"
+                      ><img
+                        width="25"
+                        src="https://i.ibb.co/kGxGwLr/cleaner.jpg"
+                        alt="cleaner"
+                        border="0"
+                      /><span>CLEANER</span></a
+                    >
+                  </td>
+
+                  <td>1</td>
+                  <td>$60.00</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td style="text-align: center">
+                    TOTAL <span style="color: green">$180.00</span>
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </td>
+        </tr>
+
+        <!-- TEXT  -->
+        <tr >
+            <td style="text-align: center; pad: 15px;background-color: #3c83e0;">
+                <p style="font-size: 17px; color: white;">Call us at 1-800-568-8008 or reply to this Email</p>
+            </td>
+        </tr>
+        
+        <!--  SERVICE -->
+        <tr>
+            <td style="padding: 10px;">
+                
+<a href="#"><img width="100%" style="max-width: 600px;" src="https://i.ibb.co/ryy9QH9/chewy-1.png" alt="chewy-1" border="0"></a>
+            </td>
+        </tr>
+
+      </table>
+    </center>
+  </body>
+</html>
